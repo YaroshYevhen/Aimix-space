@@ -1,0 +1,27 @@
+{
+  "name": "aimix-space",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "11": "0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YaroshYevhen/Aimix-space.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YaroshYevhen/Aimix-space/issues"
+  },
+  "homepage": "https://github.com/YaroshYevhen/Aimix-space#readme",
+  "description": ""
+}
