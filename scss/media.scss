@@ -1,6 +1,22 @@
 /********* hovers *********/
 @media (min-width: 992px) {
-
+	.callback:hover {
+		transform: translate(-10px, 10px);
+	}
+	.quiz-item__radio:hover {
+		&::after {
+			left: auto;
+			right: 0;
+			width: 100%;
+			border-radius: 15px;
+			box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
+			transition: width .6s, border-radius .15s, box-shadow .3s;
+			transition-delay: 0s, 0s, 0s;
+		}
+		.check {
+			background-color: rgb(229, 35, 32);
+		}
+	}
 }
 
 /*************************************/
