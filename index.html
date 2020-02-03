@@ -373,36 +373,34 @@
 					</div>
 					<div class="quiz-item">
 						<div class="quiz-item__title">
-							<h4 class="title">Для каких целей будет создаваться Ваш сайт?</h4>
+							<h4 class="title">Контакты и дополнительная информация</h4>
 							<span class="subtitle font-alt">*чем подробнее будет ваше описание, тем лучше мы сможем выполнить ваше задание</span>
 						</div>
 						<div class="quiz-item__content">
-							<label class="quiz-item__radio">
-								<input type="radio" name="purpose" value="интернет-продажи, развитие онлайн рынка">
-								<span class="check"></span>
-								<p>интернет-продажи, развитие онлайн рынка</p>
+							<label class="quiz-item__input quiz-item__input_name">
+								<span>Как к Вам обращаться?</span>
+								<input type="text" name="name" placeholder="Введите своё имя">
 							</label>
-							<label class="quiz-item__radio">
-								<input type="radio" name="purpose" value="повышение имиджа фирмы и информационное расширение компании">
-								<span class="check"></span>
-								<p>повышение имиджа фирмы и информационное расширение компании</p>
+							<label class="quiz-item__input quiz-item__input_email">
+								<span>Куда написать ответ?</span>
+								<input type="email" name="email" placeholder="Введите свой email">
 							</label>
-							<label class="quiz-item__radio">
-								<input type="radio" name="purpose" value="онлайн медиа, генерация и распространение информационного конте">
-								<span class="check"></span>
-								<p>онлайн медиа, генерация и распространение информационного контента</p>
+							<label class="quiz-item__textarea">
+								<span>Описание проекта</span>
+								<textarea name="description" placeholder="Введите описание проекта"></textarea>
 							</label>
-							<label class="quiz-item__radio">
-								<input type="radio" name="purpose" value="онлайн-сервисы, внутрикорпоративные системы">
-								<span class="check"></span>
-								<p>онлайн-сервисы, внутрикорпоративные системы</p>
+							<label class="quiz-item__file">
+								<span class="text">Перетащите файл в эту область или</span>
+								<input type="file" name="files[]" multiple>
+								<button>Выбрать файл</button>
+								<span class="info">(до 3 мб; PDF, JPEG, PNG, DOC, ZIP, EPS, PSD)</span>
 							</label>
-							<label class="quiz-item__radio quiz-item__radio_custom">
-								<input type="radio" name="purpose" value="">
-								<span class="check"></span>
-								<p>Ваш вариант</p>
-							</label>
-							<input type="text" class="quiz-item__custom" disabled>
+							<div class="files">
+								<div class="files-item"><span>Название файла</span><span>.docx</span></div>
+								<div class="files-item"><span>Название файла</span><span>.docx</span></div>
+								<div class="files-item"><span>Название файла</span><span>.docx</span></div>
+								<div class="files-item"><span>Длинное название файла</span><span>.docx</span></div>
+							</div>
 						</div>
 					</div>
 				</div>
